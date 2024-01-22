@@ -119,8 +119,65 @@
 // const together = [one,two,three];
 // console.log(together)
 
-//Array De-Structuring  
+//Array De-Structuring
 
 // const language = ["Bangla","Hindi","Urdu","Spanish","Arabic","French"]
 // const [a,b,c,,d,v]= language
 // console.log(a,b,c,d,v)
+
+//ES6 Map ---> Map is group of data
+
+// let myMap = new Map();
+// myMap.set("key1", "Bangladesh");
+// myMap.set("key2", "Bhutan");
+// myMap.set("key3", "Nepal");
+// myMap.set("key4", "Thailand");
+// myMap.set("key5", "Burma");
+// myMap.set("key6", "Pakistan");
+// myMap.set("key7", "China");
+// myMap.set("key8", "Korea");
+// myMap.set("key9", "Maldiv");
+
+//delete one by one----
+// myMap.delete("key1")
+// myMap.delete("key9")
+//delete all --------
+// myMap.clear()
+
+//get value 
+// const get = myMap.get("key9")
+// console.log(get)
+//has value ---
+// myMap.has("key8")
+// console.log(myMap.values());
+
+
+// ES6 set -- 1,Set is collection of data 2, Set almost like array 3, Set does not contain any duplicates
+
+// let demoSet = new Set([1,3,5,8])
+// console.log(demoSet)
+
+// let mySet = new Set();
+
+// mySet.add("green")
+// mySet.add("Blue")
+// mySet.add("Black")
+// mySet.add("11")
+// mySet.add(33)
+
+//  delete all data --
+// mySet.clear()
+
+//delete on by one --------
+// mySet.delete("11")
+
+// set size---
+// console.log(mySet.size)
+
+// search element  by using has
+// if(mySet.has('Black')){
+//     console.log("got it")
+// } else return "no "
+
+
+// console.log(mySet.values())
