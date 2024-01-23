@@ -144,13 +144,12 @@
 //delete all --------
 // myMap.clear()
 
-//get value 
+//get value
 // const get = myMap.get("key9")
 // console.log(get)
 //has value ---
 // myMap.has("key8")
 // console.log(myMap.values());
-
 
 // ES6 set -- 1,Set is collection of data 2, Set almost like array 3, Set does not contain any duplicates
 
@@ -179,5 +178,69 @@
 //     console.log("got it")
 // } else return "no "
 
-
 // console.log(mySet.values())
+
+//*****************OPP********************
+
+// ---------------ES6 class create and use------------
+
+// class myClass {
+//   myFunc() {
+//     console.log("I am from function inside class");
+//   }
+//   myFunc1() {
+//     console.log("I am from function inside class1");
+//   }
+//   myFunc2() {
+//     console.log("I am from function inside class2");
+//   }
+//   myFunc3() {
+//     console.log("I am from function inside class3");
+//   }
+// }
+// const obj = new myClass();
+// obj.myFunc3();
+// obj.myFunc2();
+// obj.myFunc1();
+
+//*********** */ Class Constructor**************
+
+// class myClass{
+
+//     constructor(){
+
+//         console.log("I am constructor")
+//     }
+// }
+
+// const obj = new myClass();
+
+// use parameter inside constructor
+
+// class myClass {
+//   constructor(a, b) {
+//     this.firstNum = a;
+//     this.secondNum = b;
+//   }
+
+//   add(){
+//     const result = this.firstNum + this.secondNum;
+//     console.log(result)
+//   }
+
+// }
+
+// const obj = new myClass(10, 20);
+// obj.add()
+
+// *****************Static keyword  *****************************
+
+// class myClass {
+//   static hello() {
+//     console.log("I am from hello function");
+//   }
+// }
+// myClass.hello();
+
+// ******** CLass Inheritance  *********
+
